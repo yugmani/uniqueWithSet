@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: orange;
+}
+
+.lists {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-list,
+.original-list {
+  flex: 0.5;
+  height: 100%;
+}
+
+.original-list {
+  background-color: lightcoral;
+}
+
+.new-list {
+  background-color: lightyellow;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+ul > li {
+  padding: 10px 5 px;
+}
+
+.footer {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
